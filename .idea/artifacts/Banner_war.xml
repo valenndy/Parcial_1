@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Banner:war">
+    <output-path>$PROJECT_DIR$/Integrador1Template-main/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>Banner</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="Banner-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="Banner:war exploded" />
+    </root>
+  </artifact>
+</component>
